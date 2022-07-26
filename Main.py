@@ -6,17 +6,24 @@ class Stack:
 
     def is_empty(self):
         # Write code here
+        if item is None:
+            return True
 
     def is_full(self):
         # Write code here
+        if item is not None:
+            return False
 
     def push(self, data):
         if not self.is_full():
             # Write code here
+            data=int(input("enter the variable:"))
+            item.append(data)
 
     def pop(self):
         if not self.is_empty():
             # Write code here
+            item.pop()
 
     def status(self):
         # Write code here
