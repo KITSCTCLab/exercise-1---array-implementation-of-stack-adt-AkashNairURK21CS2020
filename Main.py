@@ -7,12 +7,12 @@ class Stack:
 
     def is_empty(self):
         # Write code here
-        if len(self.item)==0 and self.size<=100 and self.size>=1:
+        if len(self.item)==0 :
             return True
 
     def is_full(self):
         # Write code here
-        if len(self.item)==self.size and self.size<=100 and self.size>=1:
+        if len(self.item)==self.size :
             return True
 
     def push(self, data):
